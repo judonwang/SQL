@@ -1,0 +1,80 @@
+﻿country_code,continent,country,city
+US,North America,United States,Los Angeles
+CA,North America,Canada,Toronto
+UK,Europe,United Kingdom,London
+FR,Europe,France,Paris
+DE,Europe,Germany,Berlin
+IT,Europe,Italy,Rome
+ES,Europe,Spain,Madrid
+JP,Asia,Japan,Tokyo
+KR,Asia,South Korea,Seoul
+CN,Asia,China,Beijing
+IN,Asia,India,Mumbai
+AU,Oceania,Australia,Sydney
+BR,South America,Brazil,Rio de Janeiro
+AR,South America,Argentina,Buenos Aires
+ZA,Africa,South Africa,Cape Town
+NG,Africa,Nigeria,Lagos
+EG,Africa,Egypt,Cairo
+MX,North America,Mexico,Mexico City
+RU,Europe,Russia,Moscow
+SA,Asia,Saudi Arabia,Riyadh
+ID,Asia,Indonesia,Jakarta
+TR,Asia,Turkey,Istanbul
+TH,Asia,Thailand,Bangkok
+CA,North America,Canada,Vancouver
+IT,Europe,Italy,Milan
+ES,Europe,Spain,Barcelona
+KR,Asia,South Korea,Seoul
+JP,Asia,Japan,Osaka
+FR,Europe,France,Marseille
+DE,Europe,Germany,Hamburg
+IN,Asia,India,Delhi
+AU,Oceania,Australia,Melbourne
+BR,South America,Brazil,Sao Paulo
+ZA,Africa,South Africa,Johannesburg
+NG,Africa,Nigeria,Abuja
+MX,North America,Mexico,Guadalajara
+RU,Europe,Russia,Saint Petersburg
+SA,Asia,Saudi Arabia,Jeddah
+ID,Asia,Indonesia,Surabaya
+TH,Asia,Thailand,Chiang Mai
+TR,Asia,Turkey,Ankara
+CA,North America,Canada,Calgary
+IT,Europe,Italy,Turin
+ES,Europe,Spain,Valencia
+KR,Asia,South Korea,Busan
+JP,Asia,Japan,Fukuoka
+FR,Europe,France,Lyon
+DE,Europe,Germany,Munich
+IN,Asia,India,Chennai
+AU,Oceania,Australia,Brisbane
+BR,South America,Brazil,Brasilia
+ZA,Africa,South Africa,Pretoria
+NG,Africa,Nigeria,Kano
+EG,Africa,Egypt,Alexandria
+MX,North America,Mexico,Puebla
+RU,Europe,Russia,Nizhny Novgorod
+SA,Asia,Saudi Arabia,Dammam
+ID,Asia,Indonesia,Bandung
+TH,Asia,Thailand,Phuket
+TR,Asia,Turkey,Izmir
+CA,North America,Canada,Edmonton
+IT,Europe,Italy,Naples
+ES,Europe,Spain,Seville
+KR,Asia,South Korea,Incheon
+JP,Asia,Japan,Sapporo
+FR,Europe,France,Toulouse
+DE,Europe,Germany,Cologne
+IN,Asia,India,Hyderabad
+AU,Oceania,Australia,Perth
+BR,South America,Brazil,Recife
+ZA,Africa,South Africa,Durban
+NG,Africa,Nigeria,Ibadan
+EG,Africa,Egypt,Luxor
+MX,North America,Mexico,Monterrey
+RU,Europe,Russia,Kazan
+SA,Asia,Saudi Arabia,Medina
+ID,Asia,Indonesia,Medan
+TH,Asia,Thailand,Krabi
+TR,Asia,Turkey,Adana

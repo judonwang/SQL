@@ -1,0 +1,57 @@
+CREATE TABLE Movie_Metadata
+(
+  Release_Date_ DATE NOT NULL,
+  IMDB_ID VARCHAR(255) NOT NULL,
+  Original_Title VARCHAR(255) NOT NULL,
+  Homepage VARCHAR(255),
+  Budget INT NOT NULL,
+  PRIMARY KEY (IMDB_ID)
+);
+
+CREATE TABLE Users
+(
+  User_ID INT NOT NULL,
+  First_Name CHAR NOT NULL,
+  Last_Name CHAR NOT NULL,
+  User_Name VARCHAR(255) NOT NULL,
+  PRIMARY KEY (First_Name, Last_Name, User_Name)
+);
+
+CREATE TABLE Movie_Metadata_Genres
+(
+  Genres CHAR NOT NULL,
+  IMDB_ID VARCHAR(255) NOT NULL,
+  PRIMARY KEY (Genres, IMDB_ID),
+  FOREIGN KEY (IMDB_ID) REFERENCES Movie_Metadata(IMDB_ID)
+);
+
+CREATE TABLE Movie_Links
+(
+  Movie_ID INT NOT NULL,
+  TMDB_ID INT NOT NULL,
+  IMDB_ID VARCHAR(255) NOT NULL,
+  PRIMARY KEY (Movie_ID),
+  FOREIGN KEY (IMDB_ID) REFERENCES Movie_Metadata(IMDB_ID)
+);
+
+CREATE TABLE Movie_Ratings
+(
+  Timestamp INT NOT NULL,
+  Ratings FLOAT NOT NULL,
+  User_ID INT NOT NULL,
+  Receipt INT NOT NULL,
+  Movie_ID INT NOT NULL,
+  PRIMARY KEY (Receipt),
+  FOREIGN KEY (Movie_ID) REFERENCES Movie_Links(Movie_ID)
+);
+
+CREATE TABLE Rates
+(
+  Receipt INT NOT NULL,
+  First_Name CHAR NOT NULL,
+  Last_Name CHAR NOT NULL,
+  User_Name VARCHAR(255) NOT NULL,
+  PRIMARY KEY (Receipt, First_Name, Last_Name, User_Name),
+  FOREIGN KEY (Receipt) REFERENCES Movie_Ratings(Receipt),
+  FOREIGN KEY (First_Name, Last_Name, User_Name) REFERENCES Users(First_Name, Last_Name, User_Name)
+);
